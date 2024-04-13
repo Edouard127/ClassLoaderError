@@ -1,0 +1,32 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4.10,)"
+license = "GNU General Public License v3.0"
+
+[[mods]]
+    modId = "debug"
+    version = "${mod_version}"
+    displayName = "Debug"
+    authors = "${authors}"
+    description = "${mod_description}"
+    displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.debug]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[49,)"
+    ordering = "NONE"
+    side = "CLIENT"
+
+[[dependencies.debug]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.4,)"
+    ordering = "NONE"
+    side = "CLIENT"
+
+[[dependencies.debug]]
+    modId = "kotlinforforge"
+    mandatory = true
+    versionRange = "[4.10,)"
+    ordering = "NONE"
+    side = "CLIENT"
