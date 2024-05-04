@@ -5,5 +5,5 @@ import com.debug.module.Module
 import dev.cbyrne.kdiscordipc.KDiscordIPC
 
 object DiscordRPC : Module("DiscordRPC") {
-    private val rpc = KDiscordIPC(Debug.APP_ID)
+    //private val rpc = KDiscordIPC(Debug.APP_ID)
 }
