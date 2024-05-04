@@ -1,4 +1,4 @@
-package com.lambda.neoforge
+package com.debug.neoforge
 
 import net.neoforged.fml.loading.FMLLoader
 
